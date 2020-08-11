@@ -18,8 +18,26 @@
     color: white;
     border-radius: 10px;
     padding: 8px 25px;
-cursor: pointer;
+    cursor: pointer;
 }
 .price{
     color: rgb(197, 48, 73);
+}
+.cat1, .cat2, .cat3{
+border-radius: 10px;
+color: white;
+padding: 10px 20px;
+}
+.cat1{
+ 
+   background-image: linear-gradient(45deg, rgb(190, 115, 49), gold);
+}
+.cat2{
+    background-image: linear-gradient(45deg, rgb(143, 4, 69), rgb(175, 91, 231));
+}
+.cat3{
+   background-image: linear-gradient(45deg, rgb(0, 255, 213), blue);
+}
+.catagories img{
+ width: 100px;   
 }
